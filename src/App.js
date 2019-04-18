@@ -4,6 +4,14 @@ import WeatherApp from "./components/WeatherApp";
 
 const GlobalStyle = createGlobalStyle`
   body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-overflow-scrolling: touch;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('./assets/clear.jpg');
